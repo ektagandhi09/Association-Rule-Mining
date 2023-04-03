@@ -1,1 +1,7 @@
 # Association-Rule-Mining
+
+In this project, we will be using the Python package "snscrape" to extract tweets from Twitter based on a user-specified search query and date range. We will then use the Apriori algorithm, implemented in the "apyori" package, to generate association rules between the hashtags that appear in the extracted tweets. Association rules can help identify patterns and relationships between different items in a dataset, which can be useful in a variety of applications, including marketing and recommendations.
+
+The Apriori algorithm is a popular method for generating association rules from large datasets. It works by first identifying frequent itemsets (i.e., sets of items that appear together frequently in the dataset), and then generating association rules based on those itemsets. The strength of an association rule is measured by its support (i.e., the proportion of transactions that contain both the antecedent and consequent items), confidence (i.e., the proportion of transactions that contain the consequent item given that they also contain the antecedent item), and lift (i.e., the ratio of the observed support of the rule to the expected support if the antecedent and consequent were independent).
+
+By the end of this project, we will have a set of association rules that describe the relationships between the hashtags that appear in the extracted tweets. We will also have a better understanding of how the Apriori algorithm works and how it can be applied to generate association rules in other datasets.
