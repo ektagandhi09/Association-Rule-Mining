@@ -1,4 +1,4 @@
-# Association-Rule-Mining
+# Extracting and Generating Association Rules from Twitter Hashtags using Snscrape and Apriori Algorithm in Python.
 
 In this project, we will be using the Python package "snscrape" to extract tweets from Twitter based on a user-specified search query and date range. We will then use the Apriori algorithm, implemented in the "apyori" package, to generate association rules between the hashtags that appear in the extracted tweets. Association rules can help identify patterns and relationships between different items in a dataset, which can be useful in a variety of applications, including marketing and recommendations.
 
